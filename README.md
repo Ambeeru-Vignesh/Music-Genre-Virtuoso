@@ -19,7 +19,7 @@ The goal of this project is to create a music genre classification model that ca
 
 ## Project Demo
 
-![demo](demo.mp4)
+<video controls src="demo.mp4" title="Demo For Music Genre Virtuoso"></video>
 
 ### frontend
 
@@ -88,7 +88,7 @@ To directly run the code, follow these steps:
 3. simply provide the given example audio files(country_genre.wav or reggae_genre.wav to the MUSIC GENRE VIRTUOSO and witness the intelligence of this Neural Network model)
 
 _Note: If you want to generate new model. please install the required dependencies like `numpy`, `scikit-learn`, `tensorflow`, `keras`, `matplotlib`, `librosa` and run the code cells in the provided Python script or notebook._
-[This is the Notebook](MUSIC_GENRE_CLASSIFICATION_PROJECT.ipynb)
+[This is the Notebook, please use google colab as you won't require to manually install any dependency](MUSIC_GENRE_CLASSIFICATION_PROJECT.ipynb)
 
 ## Usage
 
