@@ -53,6 +53,8 @@ This part of the project contains the frontend code that allows users to interac
 
 This file contains the Flask application that serves as the web server and handles user requests. It also includes functions for processing the audio file and making predictions using the trained model.
 
+The application would be running on http://127.0.0.1:5000
+
 ### Endpoints:
 
 1. `/`: The index route that renders the main page where users can upload an audio file for prediction.
@@ -84,7 +86,7 @@ To directly run the code, follow these steps:
 
 1. Install all the required dependencies mentioned in requirements.txt using pip.
    _example - `pip install tensorflow==2.16.1`._
-2. Run `python app.py`.
+2. Run `python app.py` and wait for server to start on http://127.0.0.1:5000.
 3. simply provide the given example audio files(country_genre.wav or reggae_genre.wav to the MUSIC GENRE VIRTUOSO and witness the intelligence of this Neural Network model)
 
 _Note: If you want to generate new model. please install the required dependencies like `numpy`, `scikit-learn`, `tensorflow`, `keras`, `matplotlib`, `librosa` and run the code cells in the provided Python script or notebook._
