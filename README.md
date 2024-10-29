@@ -19,11 +19,12 @@ The goal of this project is to create a music genre classification model that ca
 
 ## Project Demo
 
-![demov](demo.mp4)
+![demo](demo.mp4)
 
 ### frontend
 
 ![The Frontend](<Output Screenshots/Screenshot 1.png>)
+
 ![The Output](<Output Screenshots/Screenshot 2.png>)
 
 ## Dataset
