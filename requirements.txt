@@ -1,0 +1,10 @@
+Name: tensorflow
+Version: 2.16.1
+Name: matplotlib
+Version: 3.9.2
+Name: librosa
+Version: 0.10.2.post1
+Name: numpy
+Version: 1.26.4
+Name: Flask
+Version: 3.0.3
