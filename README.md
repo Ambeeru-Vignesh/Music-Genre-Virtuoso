@@ -19,7 +19,7 @@ The goal of this project is to create a music genre classification model that ca
 
 ## Project Demo
 
-<video controls src="demo.mp4" title="Demo For Music Genre Virtuoso"></video>
+[Watch the video](demo.mp4)
 
 ### frontend
 
