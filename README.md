@@ -6,7 +6,6 @@ In the Final Project, we have enhanced the model architecture from custom CNN mo
 
 In this enhanced version, we also evaluate the trustworthiness of the AI system based on its fairness, transparency, robustness, and explainability.
 
-
 ## Table of Contents
 
 1. [Project Objective](#project-description)
@@ -27,7 +26,6 @@ Following the midterm project, the application has been evaluated on the aspect 
 ## 2. Project Demo
 
 [Watch the video](demo.mp4)
-
 
 ## 3. Dataset
 
@@ -58,10 +56,9 @@ Here are concise headings with one-line summaries for each section:
 5. **Fine-tuning**  
    Reduced overfitting with dropout layers, L2 regularization, and dynamic learning rate adjustment using ReduceLROnPlateau.
 
-
 ## 5. Code Segments
 
-*Data Augmentation*
+_Data Augmentation_
 
 ```
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
@@ -80,7 +77,7 @@ datagen.fit(X_train_resized)
 
 ```
 
-*VGG16 MODEL*
+_VGG16 MODEL_
 
 ```
 from tensorflow.keras.applications import VGG16
@@ -114,7 +111,7 @@ model.summary()
 
 ```
 
-*Learning Rate Scheduler*
+_Learning Rate Scheduler_
 
 ```
 from tensorflow.keras.callbacks import ReduceLROnPlateau
@@ -126,7 +123,7 @@ history = model.fit(X_train, y_train, validation_data=(X_test, y_test), batch_si
 
 ```
 
-*Range of hyperparameter Values that's been used*
+_Range of hyperparameter Values that's been used_
 
 ```
 param_grid = {
@@ -135,7 +132,6 @@ param_grid = {
     'learning_rate': [0.0001, 0.001, 0.01],
 }
 ```
-
 
 ## Music Genre Classification Frontend
 
@@ -193,19 +189,19 @@ The code contains detailed explanations of each step, and you can use it to:
 3. Implement a regularized and customized CNN layer on to manage overfitting.
 4. Perform Fine Tuning.
 5. Evaluate through Fairness Evaluation Methodology.
-   Metrics used: 
-   1) Per-Class Accuracy 	
-   2) Confusion Matrix	
-   3) Fairness Index
+   Metrics used:
+   1. Per-Class Accuracy
+   2. Confusion Matrix
+   3. Fairness Index
 6. Predict the genre of new songs using the built trained model.
 
 ## 9. Output Screenshots
 
 ![The Frontend](<Output Screenshots/Screenshot Frontend.png>)
 
-![The Output predicting Reggae genre correctly](<Output Screenshots/Screenshot 2.png>)
+![The Output predicting Reggae genre correctly](<Output Screenshots/Screenshot Predicting Reggae Genre.png>)
 
-![The Output predicting Country genre correctly](<Output Screenshots/Screenshot Predicting Reggae Genre.png>)
+![The Output predicting Country genre correctly](<Output Screenshots/Screenshot Predicting Country Genre.png>)
 
 ## 10. Acknowledgments
 
