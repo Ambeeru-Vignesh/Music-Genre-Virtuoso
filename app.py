@@ -5,7 +5,9 @@ import numpy as np
 import librosa
 
 app = Flask(__name__)
-model = tf.keras.models.load_model('Music_Genrel_CNN_Model.h5')
+
+# Loaded the new trained VGG16CNN architecture model
+model = tf.keras.models.load_model('MUSIC_GENRE_VGG16_CNN.h5')
 
 
 # Audio files pre-processing
